@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background: #e6efe9;
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 18px;
+}
+.Contenedor{
+    margin: 2rem;
+    padding: 1rem;
+    width: 95%;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.Info{
+    display: grid;
+    grid-template-columns: 20% 60% 10%;
+    background-color: #C4EABA;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #8F8389;
+    border-radius: 15px;
+}
+.C1{
+    display: block;
+}
+.C2{
+    display: block;
+}
+.C3{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+}
+.Perfil{
+    margin-left: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.Refs{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    background-color: #C4EABA;
+    margin: 1rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    border: 2px solid #8F8389;
+    border-radius: 15px;
+}
