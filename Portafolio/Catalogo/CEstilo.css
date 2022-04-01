@@ -33,6 +33,9 @@ nav ul, nav li {
     margin-top: 13px;
     padding-top: 10px;
 }
+.boton a{
+    display: block;
+}
 
 .boton:hover{
     background-color: white;
