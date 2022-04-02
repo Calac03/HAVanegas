@@ -59,3 +59,13 @@ li{
 p{
     text-align: left;
 }
+
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+a:hover{
+    color: #e8e9f3;
+}
