@@ -1,4 +1,4 @@
-const Lsolut = document.querySelector('.SLetra');
+var Lsolut = document.querySelector('.SLetra');
 const BSolucion = document.querySelector('.Solucion')
 
 BSolucion.addEventListener('click', function(){

@@ -64,3 +64,11 @@ nav ul, nav li {
     color: black;
     padding: 10px 0px;
 }
+
+h1{
+    padding: 18% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
