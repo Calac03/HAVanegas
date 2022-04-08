@@ -51,6 +51,23 @@ section{
     margin-right: 50px;
     height: 500px;
 }
+.consultas{
+    background-color: #3e8914;
+    margin-top: 50px;
+    border: 2px solid #e8e9f3;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.consultas a{
+    font-size: 80px;
+    text-decoration: underline 2px double;
+}
+
 li{
     text-align: left;
     font-size: 20px;
