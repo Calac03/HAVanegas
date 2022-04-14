@@ -5,7 +5,6 @@
 }
 
 body {
-    text-align: center;
     background-color: #e8e9f3;
 }
 
@@ -13,27 +12,28 @@ nav {
     height: 64px;
     background: #96e072;
     border-bottom: 1px solid #134611;
-    text-align: left;
     box-shadow: 0px 0px 4px #134611;
-    display: block;
+    padding-left: 10px;
 }
 
 nav ul, nav li {
     list-style: none;
 }
 
+.menu{
+    display: grid;
+    grid-template-columns: 11% 11% 11%
+}
+
 .boton{
-    position: relative;
-    display: inline-block;
-    margin: 0px 20px;
+    text-align: center;
     width: 200px;
     height: 40px;
-    text-align: center;
     margin-top: 13px;
     padding-top: 10px;
+    border-radius: 10px;
 }
 .boton a{
-    display: block;
     text-decoration: none;
     color: black;
 }
@@ -43,32 +43,53 @@ nav ul, nav li {
     transition: .5s;
 }
 
-.boton:hover .submenu{
-    visibility: visible;
-}
-
-.submenu{
-    position: absolute;
-    background-color: #3e8914;
-    visibility: hidden;
-    width: 100%;
-}
-
-.submenu li:hover{
-    background-color: white;
-    transition: .5s;
-}
-.submenu a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 10px 0px;
-}
-
 h1{
-    padding: 18% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 70px;
+}
+
+.contenido{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    padding-top: 2%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+article{
+    background-color: #96e072;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 0% 5%;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+}
+
+h2{
+    margin: 0% 5%;
+}
+
+a{
+    text-decoration: underline 1px;
+    color: black;
 }
