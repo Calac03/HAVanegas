@@ -4,7 +4,10 @@ body{
     background-color: #96e072;
     color: #FFFFFF;
     text-align: center;
+    display: grid;
+    grid-template-rows: 30% 60% 20%;
 }
+
 header{
     display: grid;
     background-color: #134611;
@@ -44,7 +47,6 @@ section{
 }
 .cuadro{
     background-color: #3e8914;
-    margin-top: 50px;
     border: 2px solid #e8e9f3;
     border-radius: 25px;
     margin-left: 50px;
@@ -53,7 +55,6 @@ section{
 }
 .consultas{
     background-color: #3e8914;
-    margin-top: 50px;
     border: 2px solid #e8e9f3;
     border-radius: 25px;
     margin-left: 50px;
@@ -78,7 +79,7 @@ p{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
     display: block;
     color: black;
 }

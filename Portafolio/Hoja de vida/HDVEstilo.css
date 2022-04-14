@@ -6,6 +6,10 @@ body{
     grid-template-columns: 400px 1463px;
     color: #FFFFFF;
 }
+article{
+    display: grid;
+    grid-template-rows: 20% 23% 20% 20% 17%;
+}
 aside{
     background-color: #134611;
     height: 935px;
@@ -39,16 +43,14 @@ h1{
 }
 section{
     background-color: #3e8914;
-    margin: 30px;
+    margin: 10px;
     padding-left: 40px;
     padding-right: 20px;
 }
 h2{
     font-size: 30px;
     color: #e8e9f3;
-    padding-top: 10px;
 }
 p{
     font-size: 20px;
-    padding-bottom: 20px;
 }
