@@ -61,6 +61,7 @@ let cuestionario = [
   }
 ]
 
+const reiniciar = document.querySelector('.reiniciar');
 let PreguntaActual=0;
 let correcta;
 let respuestascorrectas=0;
@@ -134,9 +135,12 @@ const comenzar = _ =>{
   document.querySelector('.Iniciar').style.display = 'none';
 }
 
-const volveraempezar = _ =>{
+reiniciar.addEventListener('click',()=>{
   PreguntaActual=0;
   respuestascorrectas=0;
   respuestasfallidas=0;
+  document.querySelector('.right').innerHTML = respuestascorrectas;
+  document.querySelector('.wrong').innerHTML = respuestasfallidas;
   printHTMLQuestion(PreguntaActual);
-}
+})
+ 
